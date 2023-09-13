@@ -1,0 +1,49 @@
+@import url('roland-main.css');
+@import url(custom-font.css);
+
+#header{
+    background-color: #3942a5;
+    text-transform: uppercase; 
+    font-family: 'Sans Pro', sans-serif;
+    padding: 20px;
+}
+
+#navbar-container{
+    display: flex;
+    align-items: center;
+    background: rgb(74,82,185);
+    background: linear-gradient(0deg, rgba(74,82,185,1) 0%, rgba(57,66,165,1) 50%, rgba(74,82,185,1) 100%);
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 3px solid rgb(49, 57, 179);
+}
+
+#navbar-container :last-child{
+    margin-left: auto;
+}
+
+#header ul{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-evenly; 
+}
+
+#header li {
+    list-style: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#header a {
+    margin: 0;
+    padding: 10px;
+    color: #7aa3cc;
+    text-shadow: 0 2px 4px rgba(0,0,0,.8), 0 8px 16px rgba(0,0,0,.6);
+    text-decoration: none;
+}
+
+#header a:hover {
+    background: rgb(84,91,185);
+    background: linear-gradient(0deg, rgba(84,91,185,1) 0%, rgba(57,66,165,1) 50%, rgba(84,91,185,1) 100%);
+}
