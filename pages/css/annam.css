@@ -8,7 +8,7 @@ body{
 nav ul{
     list-style-type: none;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
 }
 nav ul li{
     float: left;
