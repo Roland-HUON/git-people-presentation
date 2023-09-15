@@ -1,0 +1,38 @@
+#hobbies-wrapper{
+    background: -webkit-linear-gradient(#284475, black);
+}
+.hobbies{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: smaller;
+}
+
+.hobbies div{
+    width: 300px;
+}
+
+.hobbies img{
+    border: 2px solid #a3b8cc;
+    width: 100%;
+}
+
+.hobbies p{
+    width: 100%;
+    border: 2px solid #284475;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+}
+
+@media screen and (max-width: 426px) {
+    .hobbies{
+        flex-direction: column;
+    }
+
+    .hobbies div{
+        width: 100px;
+        margin-bottom: 10px;
+    }
+    
+}

@@ -14,9 +14,11 @@ const display = () =>{
 
 // parallax effect
 const title = document.getElementById('title')
+const bg = document.getElementById('bg-intro')
 
 window.addEventListener('scroll', () =>{
     let scroll = window.scrollY
 
     title.style.top = scroll * 0.40 + "px"
+    bg.style.bottom = scroll * 0.25 + "px"
 })
