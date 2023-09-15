@@ -1,31 +1,11 @@
 @import url('header.css');
+@import url('intro.css');
 @import url('custom-font.css');
 
 body{
     margin: 0;
     padding: 0;
     background-color: black;
-}
-
-.intro {
-    letter-spacing: .05em;
-    text-transform: uppercase; 
-    font-family: 'Eurostile-Extended-Regular'; 
-    text-align: center;
-    background:-webkit-linear-gradient(#3961a5, #284475);
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    user-select: none;
-}
-
-h1, h2, p{
-    margin: 0;
-    color: white;
-    text-shadow: 0 2px 4px rgba(0,0,0,.8), 0 8px 16px rgba(0,0,0,.6);
-}
-
-h2 {
-    font-size: small;
 }
 
 p { 
@@ -35,7 +15,7 @@ p {
 .bio {
     display: flex;
     justify-content: flex-end;
-    background: -webkit-linear-gradient(#284475,black);
+    background: -webkit-linear-gradient(black, #284475);
     padding: 15px;
 }
 
