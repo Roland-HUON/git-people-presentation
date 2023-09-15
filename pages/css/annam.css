@@ -1,44 +1,124 @@
+@import url('menu/navbar.css');
+.HeaderPremierSousConteneur{
+    display: flex;
+    
+}
+header img{
+    display: none;
+}
 h1{
     text-align: center;
 }
+h2{
+    font-size: 2em;
+}
+h3{
+    font-size: 1.8em;
+}
 body{
-    background:linear-gradient(#317396, rgb(15, 15, 15)) ; 
+    background:linear-gradient(#295871, rgb(15, 15, 15)) ; 
     color: aliceblue; 
 }
-nav ul{
-    list-style-type: none;
-    display: flex;
-    justify-content: space-evenly;
-}
-nav ul li{
-    float: left;
-    width: 10%;
-    text-align: center;
-    position: relative;
-}
-
-nav ul::after{
-    display: table;  
-    clear: both; 
-}
-
-nav a{
-    display: block;
-    text-decoration: none; 
-    border-bottom: 2px solid transparent; 
-}
-
-nav a:hover{ 
-    color: gold;
-    border-bottom: 2px solid gold;
-}
-nav > ul li:hover{
-    display: block;
-}
-.booksmark{
-    color: aliceblue;
-    font-size: large;
+main{
+    
+    margin-left: 5%;
 }
 table{
+    margin: auto;
+    font-size: 1.8em;
     border: 2px solid #317396;
+}
+.Presentation{
+    display: flex;
+}
+.sousPresentation{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+}
+.sousPresentation p{
+    font-size: XX-LARGE;
+}
+.sousPresentation img{
+    width: 50%;
+}
+.github{
+    height: 470px;
+    width: 30%;
+    display: flex;
+    margin-right: 10%;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid rgba(255, 255, 255, 0.695);
+    border-bottom-right-radius: 2%;
+    border-bottom-left-radius: 2%;
+    border-top-right-radius: 2%;
+    border-top-left-radius: 2%;
+}
+.github img{
+    width: 200px;
+    border-radius: 50%;
+}
+.title{
+    font-size: xx-large;
+}
+.github p{
+    text-align: center;
+}
+.Histoire{
+    display: flex;
+}
+.Histoire p{
+    font-size: 1.8em;
+}
+.Profil{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid rgba(255, 255, 255, 0.695);
+    margin-right: 10%;
+}
+.Profil img{
+    height: auto;
+    border-radius: 50%;
+    width: 200px;
+}
+.infoBasique{
+    font-size: 2em;
+}
+.Profil ul p{
+    font-size: 1.2em;
+    text-align: center;
+}
+.Profil ul{
+    font-size: 1.5em;
+    margin-right: 16%;
+}
+.histoireCategory{
+    display: flex;
+}
+.fact p{
+    font-size: 1.8em;
+}
+.Passions li{
+    font-size: 1.8em;
+}
+.Passions p{ 
+    font-size: 1.8em;
+}
+@media screen and (max-width:1200px){
+    .header img{
+        display: block;
+        position: absolute;
+        right: 0;
+        width: 3%;
+    }
+    .HeaderFlex ul{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        list-style-type: none;
+    }
 }
