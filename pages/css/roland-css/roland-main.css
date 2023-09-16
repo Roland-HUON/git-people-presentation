@@ -70,7 +70,7 @@ h4{
     font-size: larger;
 }
 
-#arrow-down{
+.arrow-down{
     background-color:  #284475;
     display: flex;
     justify-content: center;   
@@ -78,6 +78,14 @@ h4{
     padding-bottom: 1rem;
 }
 
-#arrow-down svg{
+.arrow-down svg{
     height: 50px;
+}
+
+#Arrow-2{
+    background-color:  black;
+}
+
+#Arrow-2 svg{
+    fill: #284475;
 }
