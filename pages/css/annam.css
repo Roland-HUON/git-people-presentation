@@ -1,10 +1,13 @@
 @import url('menu/navbar.css');
 .HeaderPremierSousConteneur{
     display: flex;
-    
 }
 header img{
     display: none;
+}
+.github a{
+    color: yellow;
+    text-decoration: none;
 }
 h1{
     text-align: center;
@@ -24,9 +27,15 @@ main{
     margin-left: 5%;
 }
 table{
+    table-layout: auto;
+    width: 500px;
+    text-align: center;
     margin: auto;
     font-size: 1.8em;
-    border: 2px solid #317396;
+    border: 2px solid aliceblue;
+}
+td{
+    border: 1px solid aliceblue;
 }
 .Presentation{
     display: flex;
@@ -108,17 +117,88 @@ table{
 .Passions p{ 
     font-size: 1.8em;
 }
+footer p{
+    text-align: center;
+    border: 1px solid;
+}
 @media screen and (max-width:1200px){
-    .header img{
+    h1{
+        font-size: 1.8em;
+    }
+    header img{
         display: block;
         position: absolute;
         right: 0;
         width: 3%;
+    }
+    h2{
+        font-size: 1.5em;
+    }
+    h3{
+        font-size: 1.2em;
+    }
+    .github{
+        height: 340px;
+    }
+    .infoBasique{
+        font-size: 1em;
+        text-align: center;
+        margin-block-end: auto;
+    }
+    .infoBasiqueC{
+        font-size: 0.9em;
+        text-align: center;
+        margin-block-end: auto;
+    }
+    .Profil {
+        height: 350px;
+        width: 30%;
+    }
+    .Profil img{
+        width: 75px;
+    }
+    .Profil ul{
+        font-size: 0.9em;
+        margin-top: -15px;
+    }
+    .Histoire p {
+        font-size: larger;
+    }
+    .description{
+        font-size: x-small;
     }
     .HeaderFlex ul{
         display: flex;
         flex-direction: column;
         justify-content: space-around;
         list-style-type: none;
+    }
+    .title{
+        font-size: larger;
+    }
+    .sousPresentation p{
+        font-size: larger;
+    }
+    .github img{
+        width: 75px;
+    }
+    .booksmark{
+        display: none;
+    }
+    .fact p{
+        font-size: 0.9em;
+    }
+    table{
+        width: 270px;
+        font-size: 0.9em;
+    }
+    .Passions li{
+        font-size: 0.9em;
+    }
+    .Passions p{
+        font-size: 0.9em;
+    }
+    footer p{
+        font-size: 0.7em;
     }
 }
