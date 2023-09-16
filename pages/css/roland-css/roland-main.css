@@ -1,7 +1,12 @@
 @import url('header.css');
 @import url('intro.css');
 @import url('hobbies.css');
+@import url('biography.css');
 @import url('custom-font.css');
+
+html{
+    scroll-behavior: smooth;
+}
 
 body{
     margin: 0;
@@ -21,11 +26,11 @@ body::-webkit-scrollbar-thumb{
 background: #385ea0;
 }
 
-h1, h2, h3, p{
+h1, h2, h3, h4, p{
     margin: 0;
     color: white;
     text-align: center;
-    text-shadow: 0 2px 4px rgba(0,0,0,.8), 0 8px 16px rgba(0,0,0,.6);
+    text-shadow: 0 2px 4px rgba(0,0,0,.8);
 }
 
 h2 {
@@ -36,21 +41,18 @@ p {
     font-family: 'Poppins', sans-serif;
 }
 
-h3{
-    color: #a3b8cc;
-    text-transform: uppercase; 
+h3, h4{
     font-family: 'Eurostile-Extended-Regular'; 
+    text-transform: uppercase; 
     letter-spacing: .05em;
 }
 
-.bio{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background: rgb(40,68,117);
-    background: linear-gradient(0deg, rgba(40,68,117,1) 60%, rgba(0,0,0,1) 100%);
-    padding-top: 10rem;
+h3{
+    color: #a3b8cc;
+}
+
+h4{
+    font-size: 30px;
 }
 
 .text-wrapper{

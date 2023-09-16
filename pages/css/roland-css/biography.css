@@ -1,0 +1,65 @@
+#bio{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: rgb(40,68,117);
+    background: linear-gradient(0deg, rgba(40,68,117,1) 60%, rgba(0,0,0,1) 100%);
+    padding-top: 10rem;
+}
+
+#game-display{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    position: relative;
+    background-color: black;
+}
+
+#game-display p{
+    opacity: 0;
+    transition: all 0.3s ease;
+    font-weight: bold;
+    text-shadow: 0 1px 10px rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+#game-display-starcraft, #game-display-dokkan{
+    width: 50%;
+    height: 50vh;
+    filter: grayscale(100%);
+    background-size: cover;
+    background-attachment: fixed;
+    transition: all 0.3s ease;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+#game-display-starcraft{
+    background-image: url(../../../img/starcraft-playing.jpg);
+}
+
+#game-display-dokkan{
+    background-image: url(../../../img/dokkan-battle.jpg);
+}
+
+@media screen and (max-width: 426px) {
+    #game-display{
+        flex-direction: column;
+        width: 100%;
+    }
+
+    #game-display p{
+        opacity: 1;
+    }
+
+    #game-display-starcraft, #game-display-dokkan{
+        width: 100%;
+        filter: grayscale(60%);
+        background-attachment: scroll;
+    }
+}

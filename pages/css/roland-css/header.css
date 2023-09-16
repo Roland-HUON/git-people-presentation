@@ -2,7 +2,7 @@
 @import url(custom-font.css);
 
 #header{
-    position: absolute;
+    position: fixed;
     z-index: 4;
     text-transform: uppercase; 
     font-family: 'Sans Pro', sans-serif;
@@ -55,7 +55,7 @@
 
 #mobile-menu{
     display: none;
-    position: absolute;
+    position: fixed;
     left: 0;
     top: 0;
     height: 2rem;
