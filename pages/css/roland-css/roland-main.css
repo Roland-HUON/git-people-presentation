@@ -1,7 +1,8 @@
 @import url('header.css');
 @import url('intro.css');
-@import url('hobbies.css');
 @import url('biography.css');
+@import url('hobbies.css');
+@import url('hard-skill.css');
 @import url('custom-font.css');
 
 html{

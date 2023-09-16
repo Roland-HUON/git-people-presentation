@@ -1,0 +1,16 @@
+#hard-skill{
+    margin-top: 2rem;
+    background: -webkit-linear-gradient(black, #284475);
+}
+
+.language{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+}
+
+.language img{
+    width: 20%;
+}
