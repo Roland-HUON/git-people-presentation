@@ -4,6 +4,12 @@
 }
 header img{
     display: none;
+    position: absolute;
+    left: 5%;
+    width: 8%;
+}
+.arrowsIcon{
+    transform: rotate(-180deg);
 }
 .github a{
     color: yellow;
@@ -60,10 +66,7 @@ td{
     flex-direction: column;
     align-items: center;
     border: 2px solid rgba(255, 255, 255, 0.695);
-    border-bottom-right-radius: 2%;
-    border-bottom-left-radius: 2%;
-    border-top-right-radius: 2%;
-    border-top-left-radius: 2%;
+    border-radius: 2%;
 }
 .github img{
     width: 200px;
@@ -125,11 +128,8 @@ footer p{
     h1{
         font-size: 1.8em;
     }
-    header img{
+    .burgerIcon{
         display: block;
-        position: absolute;
-        right: 0;
-        width: 3%;
     }
     h2{
         font-size: 1.5em;
@@ -200,5 +200,13 @@ footer p{
     }
     footer p{
         font-size: 0.7em;
+    }
+    nav ul li{
+        transition: all 0.3s;
+        width: 100%;
+        text-align: left;
+    }
+    .booksmark{
+        font-size: 1.5em;
     }
 }
