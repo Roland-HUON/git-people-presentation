@@ -4,5 +4,7 @@ Les objectifs principaux étant d'avoir fait au minimum 6 commit/branche (person
 HTML, CSS, JS
 
 Page index -> Roland Huon
+
 Page Annam -> Roland Huon 
+
 Page Roland -> Annam Tran
