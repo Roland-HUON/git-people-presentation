@@ -218,6 +218,7 @@ a{
     opacity: 0.05;
 }
 .ConteneurImage p{
+    margin-top: 255px;
     color: white;
     margin-bottom: 295px;
     margin-block-end: auto;
