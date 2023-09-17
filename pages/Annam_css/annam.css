@@ -1,0 +1,212 @@
+@import url('menu/navbar.css');
+.HeaderPremierSousConteneur{
+    display: flex;
+}
+header img{
+    display: none;
+    position: absolute;
+    left: 5%;
+    width: 8%;
+}
+.arrowsIcon{
+    transform: rotate(-180deg);
+}
+.github a{
+    color: yellow;
+    text-decoration: none;
+}
+h1{
+    text-align: center;
+}
+h2{
+    font-size: 2em;
+}
+h3{
+    font-size: 1.8em;
+}
+body{
+    background:linear-gradient(#295871, rgb(15, 15, 15)) ; 
+    color: aliceblue; 
+}
+main{
+    
+    margin-left: 5%;
+}
+table{
+    table-layout: auto;
+    width: 500px;
+    text-align: center;
+    margin: auto;
+    font-size: 1.8em;
+    border: 2px solid aliceblue;
+}
+td{
+    border: 1px solid aliceblue;
+}
+.Presentation{
+    display: flex;
+}
+.sousPresentation{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+}
+.sousPresentation p{
+    font-size: XX-LARGE;
+}
+.sousPresentation img{
+    width: 50%;
+}
+.github{
+    height: 470px;
+    width: 30%;
+    display: flex;
+    margin-right: 10%;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid rgba(255, 255, 255, 0.695);
+    border-radius: 2%;
+}
+.github img{
+    width: 200px;
+    border-radius: 50%;
+}
+.title{
+    font-size: xx-large;
+}
+.github p{
+    text-align: center;
+}
+.Histoire{
+    display: flex;
+}
+.Histoire p{
+    font-size: 1.8em;
+}
+.Profil{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid rgba(255, 255, 255, 0.695);
+    margin-right: 10%;
+}
+.Profil img{
+    height: auto;
+    border-radius: 50%;
+    width: 200px;
+}
+.infoBasique{
+    font-size: 2em;
+}
+.Profil ul p{
+    font-size: 1.2em;
+    text-align: center;
+}
+.Profil ul{
+    font-size: 1.5em;
+    margin-right: 16%;
+}
+.histoireCategory{
+    display: flex;
+}
+.fact p{
+    font-size: 1.8em;
+}
+.Passions li{
+    font-size: 1.8em;
+}
+.Passions p{ 
+    font-size: 1.8em;
+}
+footer p{
+    text-align: center;
+    border: 1px solid;
+}
+@media screen and (max-width:1200px){
+    h1{
+        font-size: 1.8em;
+    }
+    .burgerIcon{
+        display: block;
+    }
+    h2{
+        font-size: 1.5em;
+    }
+    h3{
+        font-size: 1.2em;
+    }
+    .github{
+        height: 340px;
+    }
+    .infoBasique{
+        font-size: 1em;
+        text-align: center;
+        margin-block-end: auto;
+    }
+    .infoBasiqueC{
+        font-size: 0.9em;
+        text-align: center;
+        margin-block-end: auto;
+    }
+    .Profil {
+        height: 350px;
+        width: 30%;
+    }
+    .Profil img{
+        width: 75px;
+    }
+    .Profil ul{
+        font-size: 0.9em;
+        margin-top: -15px;
+    }
+    .Histoire p {
+        font-size: larger;
+    }
+    .description{
+        font-size: x-small;
+    }
+    .HeaderFlex ul{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        list-style-type: none;
+    }
+    .title{
+        font-size: larger;
+    }
+    .sousPresentation p{
+        font-size: larger;
+    }
+    .github img{
+        width: 75px;
+    }
+    .booksmark{
+        display: none;
+    }
+    .fact p{
+        font-size: 0.9em;
+    }
+    table{
+        width: 270px;
+        font-size: 0.9em;
+    }
+    .Passions li{
+        font-size: 0.9em;
+    }
+    .Passions p{
+        font-size: 0.9em;
+    }
+    footer p{
+        font-size: 0.7em;
+    }
+    nav ul li{
+        transition: all 0.3s;
+        width: 100%;
+        text-align: left;
+    }
+    .booksmark{
+        font-size: 1.5em;
+    }
+}

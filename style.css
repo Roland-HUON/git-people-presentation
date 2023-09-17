@@ -1,0 +1,202 @@
+@import url('pages/Annam_css/menu/navbar.css');
+@import url('index_css/conteneur.css');
+body{
+    background:linear-gradient(#295871, rgb(15, 15, 15)) ; 
+    color: aliceblue; 
+}
+h1{
+    font-size: 3em;
+    text-align: center;
+}
+footer p{
+    text-align: center;
+}
+@media screen and (max-width:1200px){
+    .mainConteneur{
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: space-evenly;
+    }
+    nav{
+        margin-right: 100px;
+    }
+    nav ul{
+        justify-content: space-between;
+    }
+    .ConteneurImage{
+        width: 350px;
+        height: 204px;
+    }
+    .ConteneurImage p{
+        font-size: 1.8em;
+        margin-top: 145px;
+    }
+    .ConteneurImageB{
+        display: none;
+        width: 350px;
+        height: 204px;
+    }
+    .ConteneurImageC{
+        display: none;
+        width: 350px;
+        height: 204px;
+    }
+    .ConteneurImageD{
+        display: none;
+        width: 350px;
+        height: 204px;
+    }
+    .ConteneurImageE{
+        display: none;
+        width: 350px;
+        height: 204px;
+    }
+    #Annam{
+        background-size: 358px;
+        background-position-y: -36px;
+        animation: responsive-travel-effect-backtime 0.75s infinite alternate;
+    }
+    #AnnamB{
+        background-size: 358px;
+        background-position-y: -36px;
+        animation: responsive-travel-effect-backtimeB 0.75s infinite alternate;
+    }
+    #AnnamC{
+        background-size: 358px;
+        background-position-y: -36px;
+        animation: responsive-travel-effect-backtimeC 0.75s infinite alternate;
+    }
+    #AnnamD{
+        background-size: 358px;
+        background-position-y: -36px;
+        animation: responsive-travel-effect-backtimeD 0.75s infinite alternate;
+    }
+    #AnnamE{
+        background-size: 358px;
+        background-position-y: -36px;
+        animation: responsive-travel-effect-backtimeE 0.75s infinite alternate;
+    }
+    #Roland{
+        background-size: 350px;
+        background-position-y: -36px;
+        animation: responsive-travel-effect 0.75s ease-out infinite alternate;
+    }
+    #RolandB{
+        background-size: 350px;
+        background-position-y: -36px;
+        animation: responsive-travel-effectB 0.75s ease-out infinite alternate;
+    }
+    #RolandC{
+        background-size: 350px;
+        background-position-y: -36px;
+        animation: responsive-travel-effectC 0.75s ease-out infinite alternate;
+    }
+    #RolandD{
+        background-size: 350px;
+        background-position-y: -36px;
+        animation: responsive-travel-effectD 0.75s ease-out infinite alternate;
+    }
+    #RolandE{
+        background-size: 350px;
+        background-position-y: -36px;
+        animation: responsive-travel-effectE 0.75s ease-out infinite alternate;
+    }
+    @keyframes responsive-travel-effect-backtime{
+        0% { 
+            transform: translateY(0px); 
+        }
+        100% { 
+            transform: translateY(0px); 
+            animation-timing-function: cubic-bezier(.34,.56,.5,1.07);
+        }
+    }
+    @keyframes responsive-travel-effect-backtimeB{
+        0% { 
+            transform: translateY(0px); 
+            animation-timing-function: cubic-bezier(.47,.04,.72,.82);
+        }
+        100% { 
+            transform: translateY(0px); 
+            animation-timing-function: cubic-bezier(.47,.04,.63,.78);
+        }
+    }
+    @keyframes responsive-travel-effect-backtimeC{
+        0% { 
+            transform: translateY(0px); 
+            animation-timing-function: cubic-bezier(.47,.04,.67,.72);
+        }
+        100% { 
+            transform: translateY(0px); 
+            animation-timing-function: cubic-bezier(.47,.04,.67,.72);
+        }
+    }
+    @keyframes responsive-travel-effect-backtimeD{
+        0% { 
+            transform: translateY(0px); 
+            animation-timing-function: cubic-bezier(.47,.04,.78,.68);
+        }
+        100% { 
+            transform: translateY(0px); 
+            animation-timing-function: cubic-bezier(.47,.04,.78,.68);
+        }
+    }
+    @keyframes responsive-travel-effect-backtimeE{
+        0% { 
+            transform: translateY(0px); 
+            animation-timing-function: cubic-bezier(.47,.04,.79,.65);
+        }
+        100% { 
+            transform: translateY(0px); 
+            animation-timing-function: cubic-bezier(.47,.04,.79,.65);
+        }
+    }
+    @keyframes responsive-travel-effect{
+        0% { 
+            animation-timing-function: cubic-bezier(.34,.56,.5,1.07);
+            transform: translateY(0px); 
+        }
+        100% { 
+            transform: translateY(0px); 
+        }
+    }
+    @keyframes responsive-travel-effectB{
+        0% { 
+            animation-timing-function: cubic-bezier(.47,.04,.63,.78);
+            transform: translateY(0px); 
+        }
+        100% { 
+            animation-timing-function: cubic-bezier(.47,.04,.72,.82);
+            transform: translateY(0px); 
+        }
+    }
+    @keyframes responsive-travel-effectC{
+        0% { 
+            transform: translateY(0px); 
+            animation-timing-function: cubic-bezier(.47,.04,.67,.72);
+        }
+        100% { 
+            transform: translateY(0px); 
+            animation-timing-function: cubic-bezier(.47,.04,.67,.72);
+        }
+    }
+    @keyframes responsive-travel-effectD{
+        0% { 
+            transform: translateY(0px); 
+            animation-timing-function: cubic-bezier(.47,.04,.78,.68);
+        }
+        100% { 
+            transform: translateY(0px); 
+            animation-timing-function: cubic-bezier(.47,.04,.78,.68);
+        }
+    }
+    @keyframes responsive-travel-effectE{
+        0% { 
+            transform: translateY(0px); 
+            animation-timing-function: cubic-bezier(.47,.04,.78,.68);
+        }
+        100% { 
+            transform: translateY(0px); 
+            animation-timing-function: cubic-bezier(.47,.04,.78,.68);   
+        }
+    }
+}
