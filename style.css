@@ -1,0 +1,16 @@
+@import url('pages/Annam_css/menu/navbar.css');
+@import url('index_css/conteneur.css');
+body{
+    background:linear-gradient(#295871, rgb(15, 15, 15)) ; 
+    color: aliceblue; 
+}
+h1{
+    font-size: 3em;
+    text-align: center;
+}
+footer p{
+    text-align: center;
+}
+@media screen and (max-width:1200px){
+    
+}
